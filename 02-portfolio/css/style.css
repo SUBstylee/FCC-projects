@@ -1,0 +1,429 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body{
+    padding-top: 85px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.margin-top-xx{
+    margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+    color: #295779;
+}
+
+.highlight-primary{
+    background: #295779;
+    color: #fff;
+    padding: 5px 25px;
+    display: inline;
+    line-height: 60px;
+    border-radius: 5px;
+}
+
+a{
+    color: #295779;
+}
+
+.navbar{
+    font-family: 'Raleway', sans-serif; 
+    background: #fff;
+    min-height: 85px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar span{
+    font-size: 10px;
+    color: #ccc;
+    text-align: center;
+    display: block;
+}
+
+.navbar-nav > li{
+    padding-bottom: 5px;
+}
+
+.navbar-nav > li > a, .navbar-nav li li a{
+    padding-bottom: 0;
+    color: #666;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+    background: none;
+}
+
+.navbar li:hover{
+    background: #f4f4f4;
+    cursor: pointer;
+}
+
+#navbar li li{
+    padding: 5px 0;
+    border-left: 4px solid #f4f4f4;
+    
+}
+.navbar-default .navbar-nav > .active > a{
+    background: #295779;
+    border-radius: 5px;
+}
+
+#navbar li.active a{
+    color: #fff;
+}
+
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: #295779;
+}
+
+section{
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+section h1{
+    margin: 30px 0;
+}
+
+.section-showcase img{
+    width: 100%;
+    padding-top: 40px;
+    position: relative;
+    float: right;
+    margin-right: -500px;
+}
+
+.section-default{
+    background: #f7f8f7;
+}
+
+.section-primary{
+    padding-top: 60px;
+    background: #295779;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.list-feature li{
+    list-style: none;
+    line-height: 2em;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #295779;
+}
+
+.fa{
+    margin-right: 10px;
+    font-size: 1.5em
+}
+
+.fa-mobile{
+    font-size: 2em;
+}
+
+.fa-white{
+    color: #fff;
+}
+
+.fa-lg{
+    font-size: 4em;
+}
+
+.content-icons{
+    text-align: center;
+}
+
+.content-icons h4{
+    color: #fff;
+    line-height: 4em
+}
+
+.content-icons i{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.content-devices{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content-devices img{
+    position: relative;
+}
+
+.content-devices img#laptop{
+    margin-left: -95px;
+    z-index: 100;
+    width: 290px;
+}
+
+.content-devices img#desktop{
+    width: 375px;
+}
+
+.content-devices img#mobile{
+    z-index: 101;
+    width: 190px;
+}
+
+#footer-main{
+    background: #295779;
+    color: #fff;
+    border-radius: 5px;
+    padding: 60px 0 40px;
+}
+
+#footer-main h4, #footer-main a{
+    color: #fff;
+}
+
+#footer-main li{
+    list-style: none;
+    line-height: 2em;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2%;
+    margin: 0 0 15px;
+    border: 1px solid #454545;
+    border-top: none;
+    display: block;
+    width: 85%;
+    font-size: 14px;
+    color: #777;
+    font-family: Monaco, monospace;
+    text-transform: uppercase;
+    margin-top: none;
+}
+
+textarea{
+    resize: none;
+}
+
+
+fieldset legend{
+    border-radius: 5px;
+    width: 85%;
+    background: #f7f8f7;
+    padding: 10px;
+    border: 1px solid #aaa;
+    color: #295779;
+}
+
+fieldset{
+    padding: 0 40px 20px;
+    border: 1px solid #aaa;
+}
+
+label{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #454545;
+    border-bottom: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-image: url(https://github.com/SUBstylee/CSS-projects/blob/master/09-styled_form/img/red_background.jpg?raw=true);
+    display: block;
+    width: 85%;
+    padding: 2%;
+    position: relative;
+    top: 5px;
+}
+
+input[type="submit"]{
+    border-radius: 5px;
+    background: none;
+    background: url(https://github.com/SUBstylee/CSS-projects/blob/master/09-styled_form/img/button_background.jpg?raw=true) repeat-x;
+    height: 40px;
+    border: 1px solid #777;
+    padding: 0 40px;
+    color: #eee;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    border-color: #333;
+}
+
+input[type="submit"]:active{
+    border-color: #000;
+    outline-color: #f55;
+}
+
+#jjt-copy{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #053050;
+}
+
+.animate{
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    
+    -webkit-animation-duration: 2.5s;
+    -moz-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+
+img#main-img.animate{
+    -webkit-transform: translate(-40em,0);
+    -moz-transform: translate(-40em,0);
+    transform: translate(-40em,0);
+}
+
+img#laptop.animate{
+    -webkit-transform: translate(12em,0);
+    -moz-transform: translate(12em,0);
+    transform: translate(12em,0);
+}
+
+img#mobile.animate{
+    -webkit-transform: translate(-8em,0);
+    -moz-transform: translate(-8em,0);
+    transform: translate(-8em,0);
+}
+
+@media(min-width:601px) and (max-width:960px){
+    .content-devices img#laptop{
+    width: 235px;
+    }
+
+    .content-devices img#desktop{
+        width: 293px;
+    }
+
+    .content-devices img#mobile{
+        width: 148px;
+    }
+}
+
+@media(max-width:600px){
+    .content-devices img#laptop{
+        display: none;
+    }
+
+    .content-devices img#desktop{
+        width: 263px;
+    }
+
+    .content-devices img#mobile{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    h1, h2, h4, #footer-links{
+        text-align: center !important;
+    }
+    h1{
+        font-size: 35px !important;
+    }
+    h2{
+        font-size: 25px !important;
+        line-height: 1.5em !important;
+        display: block !important;
+    }
+    h4{
+        font-size: 20px !important;
+    }
+    #footer-links{
+        margin-left: -40px;
+    }
+    .content-icon{
+        margin-top: 20px !important;
+    }
+    #main-img{
+        left: 4.5em;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
