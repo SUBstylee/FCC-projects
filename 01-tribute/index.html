@@ -7,17 +7,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    
+ 
+<div id="main">
     <header>
         <div class="container">
-            <h1>The Life of Alexander the Great</h1>
+            <h1 id="title">The Life of Alexander the Great</h1>
         </div>
     </header>
     
     <section>
-        <div class="container">
-            <img id="top-pic" src="img/alexander.png" alt="head of a statue depicting Alexander the Great">
-            <p id="pic-tag">Head of Alexander the Great from a smaller than life-size statue, goldleaf on bronze, 2nd century CE. (Palazzo Massimo, Rome).</p>
+        <div class="container" id="img-div">
+            <img id="image" src="https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/alexander.png?raw=true" alt="head of a statue depicting Alexander the Great">
+            <p id="img-caption">Head of Alexander the Great from a smaller than life-size statue, goldleaf on bronze, 2nd century CE. (Palazzo Massimo, Rome).</p>
+          <div id="tribute-info">
             <div id="timeline">
                 
                 <div class="tl-block">
@@ -30,7 +32,7 @@
                     <div class="tl-event">
                         <div class="event-l">
                             <div>
-                                <time>356 BCE</time><h3>Alexander is born</h3>
+                                <time>July 21, 356 BCE</time><h3>Alexander is born</h3>
                                 <p>Alexander is born at Pella in Macedonia, the son of King Philip II and Olympias. His first tutor, Leonidas, teaches Alexander math and military skills, such as archery and horsemanship. He trains Alexander to be physically tough.</p>
                             </div>
                         </div><!-- .event-l -->
@@ -269,7 +271,8 @@
                     </div><!-- .tl-event -->
                 </div><!-- .tl-block -->
             </div><!-- #timeline -->
-            <p id="wiki">To learn more about Alexander the Great, please visit this link at <a href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Wikipedia</a>.</p>
+          </div>
+            <p id="wiki">To learn more about Alexander the Great, please visit this link at <a id="tribute-link" href="https://en.wikipedia.org/wiki/Alexander_the_Great" target="_blank">Wikipedia</a>.</p>
         </div><!-- .container -->
     </section>
     
@@ -278,6 +281,6 @@
             <p>Copyright &copy; JJT &#8226; 2018</p>
         </div>
     </footer>
-    
+</div>    
 </body>
 </html>

@@ -25,20 +25,20 @@ header{
     padding-top: 20px;
 }
 
-#top-pic{
+#image{
     display: block;
     width: 400px;
     margin: 10px auto;
     border-radius: 5px;
 }
-#pic-tag{
+#img-caption{
     width: 750px;
     text-align: center;
     margin: 0 auto 50px;
 }
 
 #timeline{
-    background: url(../img/line.png) repeat-y 50% 0;
+    background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/line.png?raw=true) repeat-y 50% 0;
     min-height: 700px;
     margin: 20px 0;
     padding-top: 20px;
@@ -52,7 +52,7 @@ header{
 }
 
 .tl-year{
-    background: url(../img/point-big.png) no-repeat 50% 0;
+    background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/point-big.png?raw=true) no-repeat 50% 0;
     display: block;
     width: 70px;
     height: 70px;
@@ -69,7 +69,7 @@ header{
 }
 
 .tl-event{
-    background: url(../img/point-small.png) no-repeat 50% 0;
+    background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/point-small.png?raw=true) no-repeat 50% 0;
     margin: auto;
     width: 100%;
     overflow: hidden;
@@ -88,11 +88,11 @@ header{
 }
 .tl-event div.event-r{
     float: right;
-    background: url(../img/arrow-left.png) no-repeat 0 0; 
+    background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/arrow-left.png?raw=true) no-repeat 0 0; 
 }
 .tl-event div.event-l{
     float: left;
-    background: url(../img/arrow-right.png) no-repeat top right;
+    background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/arrow-right.png?raw=true) no-repeat top right;
 }
 .tl-event div.event-r div{
     margin-left: 20px;
@@ -120,6 +120,10 @@ p#wiki{
     text-align: center;
 }
 
+img{
+  max-width: 400px;
+}
+
 @media(max-width: 768px){
     .container{
         width: 95%;
@@ -131,15 +135,15 @@ p#wiki{
         font-size: 23px;
     }
     #timeline{
-        background: url(../img/line.png) repeat-y 30px 0;
+        background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/line.png?raw=true) repeat-y 30px 0;
     }
     .tl-year{
-        background: url(../img/point-big.png) no-repeat 0 0;
+        background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/point-big.png?raw=true) no-repeat 0 0;
         text-align: left;
         margin: 0;
     }
     .tl-event{
-        background: url(../img/point-small.png) no-repeat 16px 0;
+        background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/point-small.png?raw=true) no-repeat 16px 0;
     }
     .tl-event div{
         width: 85%;
@@ -147,16 +151,16 @@ p#wiki{
     }
     .tl-event div.event-l{
         float: right;
-        background: url(../img/arrow-left.png) no-repeat 0 0;
+        background: url(https://github.com/SUBstylee/FCC-projects/blob/master/01-tribute/img/arrow-left.png?raw=true) no-repeat 0 0;
     }
     .tl-event div.event-l div{
         margin-left: 20px;
         margin-right: 0;
     }
-    #top-pic{
+    #image{
         width: 50%
     }
-    #pic-tag{
+    #img-caption{
         width: 78%;
     }
 }
