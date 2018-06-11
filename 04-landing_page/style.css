@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #3f3f3f;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4{
+    text-align: center;
+    clear: both;
+    padding: 50px;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+/*Header*/
+
+#header{
+    background: #A6CBD8;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+}
+
+#header-img{
+    width: 75px;
+    float: left;
+    margin: 5px 0 0 50px;
+    
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    float: left;
+    display: inline-block;
+    margin: 25px 0 50px 40px;
+    padding: 5px 20px;
+}
+
+nav ul li:last-child{
+    margin-right: 50px;
+}
+
+
+
+/*Sign up and Video*/
+
+.newsletter{
+    width: 450px;
+    margin: 90px auto 0;
+    max-width: 100%;
+}
+
+#our-products, #testimonials{
+    padding-top: 90px;
+}
+
+.promo-video{
+        float: none;
+        clear: both;
+        width: 560px;
+        position: relative;
+        padding: 25px 0;
+        height: 315px;
+        margin: 0 auto;
+        max-width: 100%;
+}
+
+.packages{
+    display: flex;
+}
+
+.packages ul{
+    list-style: none;
+}
+
+.packages li{
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 5px;
+}
+
+.packages div{
+    width: 20%;
+    margin: 0 auto;
+    border: 2px solid #3f3f3f;
+    border-radius: 5px;
+}
+
+.packages div img{
+    display: block;
+    padding: 25px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#testimonials{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#testimonials img{
+    width: 75px;
+    display: flex;
+    border-radius: 20%;
+    float: left;
+    padding: 5px;
+    margin: 0 10px 0 0;
+}
+
+#testimonials ul{
+    list-style: none;
+    float: left;
+}
+
+.author{
+    text-align: center;
+}
+
+.author{
+    margin-bottom: 30px;
+}
+
+footer{
+    margin: 30px 0 10px;
+    clear: both;
+    text-align: center;
+    color: #ddd;
+}
+
+@media only screen and (max-width: 900px){
+    .packages{
+        display: inline-block;
+    }
+    .packages div{
+        width: 85%;
+    }
+}
