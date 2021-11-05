@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css"
+        integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>JAVASCRIPT</header>
+        <ul>
+            <li><a class="nav-link" href="#Variable-Hoisting">Variable Hoisting</a></li>
+            <li><a class="nav-link" href="#Typeof-Keyword">Typeof Keyword</a></li>
+            <li><a class="nav-link" href="#Constructor-vs-Literals">Constructor vs Literals</a></li>
+            <li><a class="nav-link" href="#For-In-Loop">For In Loop</a></li>
+            <li><a class="nav-link" href="#For-Of-Loop">For Of Loop</a></li>
+            <li><a class="nav-link" href="#Sorting-Arrays">Sorting Arrays</a></li>
+            <li><a class="nav-link" href="#Functions">Functions</a></li>
+            <li><a class="nav-link" href="#Function-Declarations">Function Declarations</a></li>
+            <li><a class="nav-link" href="#Function-Expressions">Function Expressions</a></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <main id='main-doc'>
+        <section class="main-section" id="Variable-Hoisting">
+            <header>Variable Hoisting</header>
+            <article>
+                <p>In JavaScript, a variable can be used before it has been declared.</p>
+                <p>This is called variable hoisting. JavaScript hoists all the variable
+                    and function declarations at the top of the scope during compile
+                    time.</p>
+                <h4>Example:</h4>
+                <img src="" alt="">
+                <p>During compilation, JS hoists the variable declarations in the way
+                    illustrated below</p>
+                <img src="" alt="">
+                <p><strong>NOTE:</strong> Variable hoisting works only for variables declared with
+                    '<strong>var</strong>'
+                    keyword. It doesn't work for variables declared with '<strong>let</strong>' &
+                    '<strong>const</strong>'
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Typeof-Keyword">
+            <header>Typeof Keyword</header>
+            <article>
+                <p><strong>typeof</strong>  is a JavaScript keyword that will return the type of a variable when you
+                    call
+                    it.</p>
+                <p><strong>typeof</strong> always returns a string type.</p>
+                <h4>Example:</h4>
+                <img src="" alt="">
+            </article>
+        </section>
+        <section class="main-section" id="Constructor-vs-Literals">
+            <header>Constructor vs Literals</header>
+            <article>
+                <p>Constructor and Literals behave differently in JS.</p>
+                <p>A constructor is a function that creates an instance of a class which is typically called an
+                    “object”.</p>
+                <p>The difference between a constructor and literal is that the
+                    constructor uses function declaration type syntax and literal
+                    notation uses the variable declaration type syntax.</p>
+                <h4>Example:</h4>
+                <ul>
+                    <li>Using String Constructor</li>
+                </ul>
+                <img src="" alt="">
+                <ul>
+                    <li>Using String Literal</li>
+                </ul>
+                <img src="" alt="">
+                <ul>
+                    <li>Using Number Constructor</li>
+                </ul>
+                <img src="" alt="">
+                <ul>
+                    <li>Using Number Literal</li>
+                </ul>
+                <img src="" alt="">
+            </article>
+        </section>
+        <section class="main-section" id="For-In-Loop">
+            <header>For In Loop</header>
+            <article>
+                <p><strong>for…in :</strong></p>
+                <p>It is a loop that is used to iterate through the properties of an object</p>
+                <h4>Example:</h4>
+                <img src="" alt="">
+                <p>In the above code example 'x' is the key in the person object.
+                    If we have 'n' key value pairs in our object, then our for…in loop will
+                    iterate 'n' times</p>
+                <p><strong>NOTE:</strong> for..in loop should not be used to iterate arrays</p>
+                <img src="" alt="">
+            </article>
+        </section>
+        <section class="main-section" id="For-Of-Loop">
+            <header>For Of Loop</header>
+            <article>
+                <p><strong>for…of :</strong></p>
+                <p>It is a loop that is used to iterate through the values of an iterable
+                    object such as Arrays, Strings, Maps </p>
+                <h4>Example:</h4>
+                <ul>
+                    <li>For.. Of loop applied on Array : </li>
+                </ul>
+                <img src="" alt="">
+                <p>In the above code example 'x' is the value in the planets array. If
+                    we have 'n' values in our object then our for…of loop will iterate 'n'
+                    times</p>
+                <ul>
+                    <li>For.. Of loop applied on String :</li>
+                </ul>
+                <img src="" alt="">
+                <p>In the above code example 'x' is the character in the planets string.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Sorting-Arrays">
+            <header>Sorting Arrays</header>
+            <article>
+                <p>The sort() method is used to sort an array alphabetically and
+                    numerically. By default the sort() method sorts values as strings.</p>
+                <h4>Example:</h4>
+                <img src="" alt="">
+                <p>This works well when an array consists of string elements. But if
+                    an array consists of numerical elements, then sort() will produce
+                    incorrect results.</p>
+                <img src="" alt="">
+                <p>sort() converts the elements into strings before sorting. So in the
+                    above example , it converts 120 , 10 and 30 into strings as "120" ,
+                    "10" and "30" respectively. Since "30" > "120" it gives an incorrect
+                    result. </p>
+                <p>A way to fix this by providing a compare function which takes two
+                    parameters and sort them according to the result:</p>
+                <img src="" alt="">
+            </article>
+        </section>
+        <section class="main-section" id="Functions">
+            <header>Functions</header>
+            <article>
+                <p>Functions are predefined tasks that the creator writes to call
+                    upon later.</p>
+                <p>
+                <p>In coding you can write code to create a square, put it in a
+                    function, and instead of teaching the computer how to create a
+                    square every time, you can just call upon the original function. </p>
+                <p>Writing a function consists of two main things: <strong>Defining</strong> the function and
+                    then <strong>calling</strong> the function.</p>
+                <h4>Example:</h4>
+                <ul>
+                    <li>Example of a function declaration and definition:</li>
+                </ul>
+                <img src="" alt="">
+                <p>In the above example 'sum' is the function name. 'a' and 'b' are
+                    called Function parameters. Function parameters are always
+                    provided in the function definition. '10' and '5' are called Function
+                    arguments. Function arguments are provided in the function
+                    declaration.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Function-Declarations">
+            <header>Function Declarations</header>
+            <article>
+                <p>Function declaration is one of the many types of functions in
+                    JavaScript. A function declaration behaves the same way as a
+                    normal function which means it has a name , parameters and
+                    arguments. </p>
+                <p>The main advantage of using function declaration is that they are
+                    hoisted. It means that moves the function declaration to the top
+                    scope block during compilation phase. </p>
+                <h4>Example:</h4>
+                <img src="" alt="">
+                <p>In the above example , even though 'sum' is invoked before it is
+                    declared, JavaScript does not throw any error</p>
+                <p>During compile time the above code is changed by JavaScript as
+                    follows:</p>
+                <img src="" alt="">
+            </article>
+        </section>
+        <section class="main-section" id="Function-Expressions">
+            <header>Function Expressions</header>
+            <article>
+                <p>Another type of functions in JavaScript is <strong>Function Expressions</strong>.</p>
+                <p>A function expression is very similar to and has almost the same
+                    syntax as a function declaration. </p>
+                <p>The main difference between function declarations and function
+                    expressions is that, function expressions are not hoisted. It
+                    means that JavaScript <strong>does not</strong> move the function expression to
+                    the top scope block during compilation phase.</p>
+                <p>You cannot declare a function expression before it is defined.</p>
+                <h4>Example:</h4>
+                <img src="" alt="">
+                <p>In the above example , 'sum' is a function expression. Hence,
+                    JavaScript throws an error when we declare(call/invoke) 'sum'
+                    <strong>before</strong> it is defined.
+                </p>
+                <p>The example below does not throw an error, since we are
+                    declaring(calling/invoking) the function expression <strong>after</strong> it is
+                    defined.</p>
+                <img src="" alt="">
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
