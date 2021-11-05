@@ -71,4 +71,34 @@ body {
   #main-doc article strong{
       font-size: 1.15em;
   }
+
+  #main-doc img{
+    padding: 10px;
+    border-radius: 15px;
+  }
   /* main end */
+
+  @media only screen and (max-width: 1000px) {
+    #navbar ul {
+      border: 1px solid;
+      height: 200px;
+    }
+  
+    #navbar {
+      background-color: #222;
+      position: fixed;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 280px;
+      border: none;
+      z-index: 1;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 280px;
+    }
+  }
